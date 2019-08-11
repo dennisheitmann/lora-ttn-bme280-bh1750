@@ -11,6 +11,6 @@ function Decoder(data, port) {
   decoded.humi.value = humi;
   decoded.humi.unit = "% (rel)";
   decoded.lux.value = lux;
-  decoded.lux.unit = "lux";
+  decoded.lux.unit = "lx";
   return decoded;
 }
